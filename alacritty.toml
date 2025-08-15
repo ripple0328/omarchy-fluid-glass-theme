@@ -1,0 +1,62 @@
+# Fluid Glass Theme for Alacritty Terminal
+
+[colors]
+[colors.primary]
+background = "#0F0F14"
+foreground = "#F8FAFC"
+
+[colors.normal]
+black = "#1E293B"
+red = "#EF4444"
+green = "#10B981"
+yellow = "#F59E0B"
+blue = "#0EA5E9"
+magenta = "#8B5CF6"
+cyan = "#06B6D4"
+white = "#F8FAFC"
+
+[colors.bright]
+black = "#475569"
+red = "#F87171"
+green = "#34D399"
+yellow = "#FBBF24"
+blue = "#38BDF8"
+magenta = "#A78BFA"
+cyan = "#22D3EE"
+white = "#FFFFFF"
+
+[colors.cursor]
+text = "#0F0F14"
+cursor = "#0EA5E9"
+
+[colors.selection]
+text = "#F8FAFC"
+background = "#1E3A8A"
+
+[colors.search]
+[colors.search.matches]
+foreground = "#0F0F14"
+background = "#F59E0B"
+
+[colors.search.focused_match]
+foreground = "#0F0F14"
+background = "#0EA5E9"
+
+[window]
+opacity = 0.85
+blur = true
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"

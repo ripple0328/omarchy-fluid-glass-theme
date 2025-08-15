@@ -1,0 +1,61 @@
+# Fluid Glass Theme for Btop
+
+# Main background and foreground
+theme[main_bg]="#0F0F14"
+theme[main_fg]="#F8FAFC"
+
+# Highlight colors
+theme[highlight]="#0EA5E9"
+theme[graph_text]="#CBD5E1"
+theme[meter_bg]="#1E293B"
+theme[proc_misc]="#94A3B8"
+theme[cpu_box]="#0EA5E9"
+theme[mem_box]="#06B6D4"
+theme[net_box]="#10B981"
+theme[proc_box]="#8B5CF6"
+theme[div_line]="#475569"
+theme[temp_start]="#10B981"
+theme[temp_mid]="#F59E0B"
+theme[temp_end]="#EF4444"
+
+# CPU usage colors
+theme[cpu_start]="#06B6D4"
+theme[cpu_mid]="#0EA5E9"
+theme[cpu_end]="#3B82F6"
+
+# Memory usage colors
+theme[free]="#10B981"
+theme[cached]="#06B6D4"
+theme[available]="#0EA5E9"
+theme[used]="#F59E0B"
+
+# Process colors
+theme[proc_start]="#8B5CF6"
+theme[proc_mid]="#A78BFA"
+theme[proc_end]="#C4B5FD"
+
+# Network colors
+theme[download_start]="#10B981"
+theme[download_mid]="#34D399"
+theme[download_end]="#6EE7B7"
+theme[upload_start]="#F59E0B"
+theme[upload_mid]="#FBBF24"
+theme[upload_end]="#FDE047"
+
+# Graph colors
+theme[graph_start]="#0EA5E9"
+theme[graph_mid]="#38BDF8"
+theme[graph_end]="#7DD3FC"
+
+# Selected and inactive colors
+theme[selected_bg]="#0EA5E94D"
+theme[selected_fg]="#F8FAFC"
+theme[inactive_fg]="#64748B"
+theme[title]="#F8FAFC"
+
+# Process tree colors
+theme[proc_tree]="#64748B"
+theme[proc_running]="#10B981"
+theme[proc_sleeping]="#94A3B8"
+theme[proc_stopped]="#F59E0B"
+theme[proc_zombie]="#EF4444"

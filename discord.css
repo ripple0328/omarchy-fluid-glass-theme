@@ -1,0 +1,211 @@
+/* Discord Fluid Glass Theme - Custom CSS */
+/* iOS 26 Liquid Glass inspired Discord styling */
+/* Use with BetterDiscord or similar Discord modification tools */
+
+:root {
+  /* Liquid Glass Color Palette */
+  --glass-bg: rgba(248, 250, 252, 0.85);
+  --glass-bg-secondary: rgba(241, 245, 249, 0.8);
+  --glass-fg: rgba(15, 23, 42, 0.95);
+  --glass-accent: rgba(14, 165, 233, 0.9);
+  --glass-accent-hover: rgba(6, 182, 212, 0.9);
+  --glass-border: rgba(148, 163, 184, 0.3);
+  --glass-shadow: rgba(0, 0, 0, 0.2);
+  --glass-message-bg: rgba(255, 255, 255, 0.4);
+  --glass-hover: rgba(14, 165, 233, 0.1);
+}
+
+/* Main app background */
+.app-1q1i1E {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+/* Server list sidebar */
+.guilds-1SWlCJ {
+  background: rgba(248, 250, 252, 0.7) !important;
+  backdrop-filter: blur(20px) !important;
+  border-right: 1px solid var(--glass-border) !important;
+}
+
+/* Server icons */
+.wrapper-25eVIn {
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.wrapper-25eVIn:hover {
+  background: var(--glass-hover) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 32px var(--glass-shadow) !important;
+}
+
+/* Channel sidebar */
+.sidebar-2K8pFh {
+  background: var(--glass-bg-secondary) !important;
+  backdrop-filter: blur(25px) !important;
+  border-right: 1px solid var(--glass-border) !important;
+}
+
+/* Channel list items */
+.containerDefault-1ZnADq {
+  background: transparent !important;
+  border-radius: 12px !important;
+  margin: 2px 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.containerDefault-1ZnADq:hover {
+  background: var(--glass-hover) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.containerDefault-1ZnADq.selected-aXhQR6 {
+  background: linear-gradient(135deg, 
+    rgba(14, 165, 233, 0.3) 0%,
+    rgba(6, 182, 212, 0.2) 100%) !important;
+}
+
+/* Chat area */
+.chat-3bRxxu {
+  background: rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+/* Message containers */
+.message-2qnXI6 {
+  background: var(--glass-message-bg) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid transparent !important;
+  border-radius: 12px !important;
+  margin: 4px 16px !important;
+  padding: 12px !important;
+  transition: all 0.2s ease !important;
+}
+
+.message-2qnXI6:hover {
+  background: rgba(255, 255, 255, 0.6) !important;
+  border-color: var(--glass-border) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Message input area */
+.channelTextArea-rNsIhG {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(15px) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  margin: 16px !important;
+}
+
+.textArea-12jD-V {
+  background: transparent !important;
+  color: var(--glass-fg) !important;
+}
+
+/* User area at bottom */
+.container-3baos1 {
+  background: var(--glass-bg-secondary) !important;
+  backdrop-filter: blur(25px) !important;
+  border-top: 1px solid var(--glass-border) !important;
+  border-radius: 16px 16px 0 0 !important;
+}
+
+/* Member list */
+.members-1998pB {
+  background: var(--glass-bg-secondary) !important;
+  backdrop-filter: blur(25px) !important;
+  border-left: 1px solid var(--glass-border) !important;
+}
+
+.member-3-YXUe {
+  background: transparent !important;
+  border-radius: 8px !important;
+  margin: 2px 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.member-3-YXUe:hover {
+  background: var(--glass-hover) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Buttons */
+.button-38aScr {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(248, 250, 252, 0.2) 100%) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 12px !important;
+  backdrop-filter: blur(10px) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.button-38aScr:hover {
+  background: var(--glass-hover) !important;
+  border-color: var(--glass-accent) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.2) !important;
+}
+
+/* Modal backgrounds */
+.modal-yWgWj- {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(30px) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 80px var(--glass-shadow) !important;
+}
+
+/* Context menus */
+.menu-3sdvDG {
+  background: rgba(248, 250, 252, 0.9) !important;
+  backdrop-filter: blur(25px) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.15) !important;
+}
+
+.item-1tOPte {
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.item-1tOPte:hover {
+  background: var(--glass-hover) !important;
+}
+
+/* Scrollbars */
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4) !important;
+  border-radius: 6px !important;
+}
+
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6) !important;
+}
+
+/* Voice call interface */
+.wrapper-2aW0bm {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(25px) !important;
+  border-radius: 16px !important;
+  border: 1px solid var(--glass-border) !important;
+}
+
+/* Status indicators with glass effect */
+.status-1fhblQ {
+  border: 2px solid rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+/* Emoji picker */
+.contentWrapper-SvZHNd {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(25px) !important;
+  border-radius: 16px !important;
+  border: 1px solid var(--glass-border) !important;
+}

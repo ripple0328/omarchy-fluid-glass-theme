@@ -1,0 +1,106 @@
+/* Fluid Glass Theme for SwayOSD */
+
+window {
+    background: rgba(15, 15, 20, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    font-family: "SF Pro Display", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#container {
+    background: transparent;
+    border-radius: 12px;
+    margin: 0;
+    padding: 8px;
+}
+
+image {
+    color: #0EA5E9;
+    background: rgba(14, 165, 233, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 16px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+progressbar {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    min-height: 8px;
+    min-width: 200px;
+    margin: 8px 0;
+}
+
+progressbar progress {
+    background: linear-gradient(90deg, #0EA5E9, #06B6D4);
+    border-radius: 8px;
+    min-height: 8px;
+}
+
+progressbar trough {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    min-height: 8px;
+}
+
+label {
+    color: #F8FAFC;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+/* Volume specific styling */
+window.volume image {
+    color: #0EA5E9;
+}
+
+window.volume progressbar progress {
+    background: linear-gradient(90deg, #0EA5E9, #38BDF8);
+}
+
+/* Brightness specific styling */
+window.brightness image {
+    color: #F59E0B;
+    background: rgba(245, 158, 11, 0.1);
+}
+
+window.brightness progressbar progress {
+    background: linear-gradient(90deg, #F59E0B, #FBBF24);
+}
+
+/* Caps lock styling */
+window.caps-lock image {
+    color: #EF4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+window.caps-lock label {
+    color: #EF4444;
+}
+
+/* Microphone styling */
+window.microphone image {
+    color: #10B981;
+    background: rgba(16, 185, 129, 0.1);
+}
+
+window.microphone progressbar progress {
+    background: linear-gradient(90deg, #10B981, #34D399);
+}
+
+/* Workspace styling */
+window.workspace label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+window.workspace image {
+    color: #8B5CF6;
+    background: rgba(139, 92, 246, 0.1);
+}

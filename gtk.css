@@ -1,0 +1,187 @@
+/* GTK4/GTK3 Fluid Glass Theme - Dark Ocean Glass */
+/* iOS 26 Liquid Glass inspired styling */
+
+@define-color glass_bg rgba(15, 15, 20, 0.85);
+@define-color glass_fg rgba(248, 250, 252, 0.95);
+@define-color glass_accent rgba(14, 165, 233, 0.9);
+@define-color glass_accent_hover rgba(6, 182, 212, 0.9);
+@define-color glass_border rgba(71, 85, 105, 0.4);
+@define-color glass_shadow rgba(0, 0, 0, 0.4);
+@define-color glass_surface rgba(255, 255, 255, 0.08);
+@define-color glass_hover rgba(255, 255, 255, 0.12);
+
+/* Global window styling */
+window {
+    background: @glass_bg;
+    color: @glass_fg;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px @glass_shadow;
+}
+
+/* Header bars with liquid glass effect */
+headerbar {
+    background: linear-gradient(135deg, 
+        rgba(15, 15, 20, 0.9) 0%,
+        rgba(30, 41, 59, 0.8) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 16px 16px 0 0;
+    border: 1px solid @glass_border;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+    min-height: 44px;
+    color: @glass_fg;
+}
+
+headerbar:backdrop {
+    background: rgba(15, 15, 20, 0.7);
+}
+
+/* Buttons with glass aesthetics */
+button {
+    background: linear-gradient(135deg, 
+        @glass_surface 0%,
+        @glass_hover 100%);
+    border: 1px solid @glass_border;
+    border-radius: 12px;
+    color: @glass_fg;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, 
+        rgba(14, 165, 233, 0.2) 0%,
+        rgba(6, 182, 212, 0.1) 100%);
+    border-color: @glass_accent;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Entry fields with glass styling */
+entry {
+    background: @glass_surface;
+    border: 1px solid @glass_border;
+    border-radius: 12px;
+    color: @glass_fg;
+    backdrop-filter: blur(15px);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+entry:focus {
+    border-color: @glass_accent;
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+}
+
+/* Scrollbars with liquid appearance */
+scrollbar {
+    background: transparent;
+}
+
+scrollbar slider {
+    background: rgba(148, 163, 184, 0.4);
+    border-radius: 6px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+scrollbar slider:hover {
+    background: rgba(148, 163, 184, 0.6);
+}
+
+/* Sidebar and navigation */
+sidebar {
+    background: @glass_bg;
+    backdrop-filter: blur(20px);
+    border-right: 1px solid @glass_border;
+}
+
+/* List items with glass effect */
+list row {
+    background: transparent;
+    border-radius: 8px;
+    margin: 2px 8px;
+    transition: all 0.2s ease;
+}
+
+list row:hover {
+    background: rgba(14, 165, 233, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+list row:selected {
+    background: linear-gradient(135deg, 
+        rgba(14, 165, 233, 0.3) 0%,
+        rgba(6, 182, 212, 0.2) 100%);
+    color: @glass_fg;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background: @glass_surface;
+    border: 1px solid @glass_border;
+    border-radius: 12px 12px 0 0;
+    backdrop-filter: blur(15px);
+    margin-right: 2px;
+    color: @glass_fg;
+}
+
+notebook tab:checked {
+    background: @glass_hover;
+    border-bottom: none;
+}
+
+/* Popovers and menus */
+popover {
+    background: @glass_bg;
+    backdrop-filter: blur(25px);
+    border: 1px solid @glass_border;
+    border-radius: 16px;
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.3);
+    color: @glass_fg;
+}
+
+/* Progress bars */
+progressbar progress {
+    background: linear-gradient(90deg, @glass_accent, @glass_accent_hover);
+    border-radius: 6px;
+}
+
+progressbar trough {
+    background: rgba(148, 163, 184, 0.2);
+    border-radius: 6px;
+}
+
+/* Checkboxes and switches */
+checkbutton check {
+    background: @glass_surface;
+    border: 2px solid @glass_border;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+checkbutton check:checked {
+    background: @glass_accent;
+    border-color: @glass_accent;
+    color: white;
+}
+
+switch {
+    background: rgba(148, 163, 184, 0.3);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+switch:checked {
+    background: @glass_accent;
+}
+
+switch slider {
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
