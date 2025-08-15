@@ -2,9 +2,7 @@
 
 A modern, Apple-inspired fluid glass theme for Omarchy featuring semi-transparent backgrounds, smooth blur effects, and a clean aesthetic.
 
-<video src="omarchy-fluid-glass-theme.mp4" autoplay muted loop playsinline>
-  Your browser does not support the video tag.
-</video>
+![Omarchy Fluid Glass Theme Demo](omarchy-fluid-glass.gif)
 
 ## Features
 
